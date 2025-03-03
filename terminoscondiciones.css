@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    /* margin:0;  */
+     /* padding:0;   */
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    /* text-decoration: none; */
+    scroll-behavior: smooth;
+    /* list-style: none; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family:'Encode Sans Semi Condensed', sans-serif; */
+}
+/* body .navbar-brand{
+    margin-right: 100;
+} */
+.enlace{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    margin: 0;
+}
+.sidebar-opcionespoliticas{
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+    
+}
+.sidebar-opcionespoliticas li{
+    list-style: none;
+    border-bottom: 1px solid rgb(102, 102,102);
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.sidebar-opcionespoliticas li:hover{
+    background-color:rgb(201, 201,201)
+}
+.POLITICAS-CONDICIONES{
+    flex: 2;
+  padding: 20px;
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif!important;
+}
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .sidebar-opcionespoliticas, .POLITICAS-CONDICIONES {
+      flex: auto;
+    }
+  }
+.subtitulo{
+    font-size: 35px;
+}
+.subtitulo-subtitulo{
+    font-weight: bold;
+}
